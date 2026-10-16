@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-full h-full" fill="none">
+  <defs>
+    <radialGradient id="ckw-dough" cx="38%" cy="35%" r="62%">
+      <stop offset="0%" stop-color="#FDE4BE"/>
+      <stop offset="38%" stop-color="#EFB97A"/>
+      <stop offset="78%" stop-color="#CF8235"/>
+      <stop offset="100%" stop-color="#964E14"/>
+    </radialGradient>
+    <linearGradient id="ckw-chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5C2E22"/>
+      <stop offset="70%" stop-color="#341710"/>
+      <stop offset="100%" stop-color="#1A0906"/>
+    </linearGradient>
+    <linearGradient id="ckw-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6CC"/>
+      <stop offset="50%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#E88C30"/>
+    </linearGradient>
+    <filter id="ckw-shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="2" flood-color="#42122A" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- NATURAL BAKED COOKIE BODY -->
+  <g filter="url(#ckw-shadow)">
+    <path d="M24 3.5 C35 3.2 44.5 12 44.5 24 C44.5 35.5 35.8 44.5 24 44.5 C12.2 44.5 3.5 35.5 3.5 24 C3.5 12.5 12.5 3.8 24 3.5 Z" 
+          fill="url(#ckw-dough)"/>
+    <!-- Caramelized baked crust rim -->
+    <path d="M24 5 C34 4.8 42.5 12.8 42.5 24 C42.5 34.5 34.5 42.5 24 42.5 C13.5 42.5 5.5 34.5 5.5 24 C5.5 13.5 13.5 5.2 24 5 Z" 
+          stroke="#7C3E10" stroke-opacity="0.35" stroke-width="1.5" fill="none"/>
+    <!-- Cookie Cracks -->
+    <path d="M13 13 C15.5 14 18 13.5 20 15" stroke="#8F4F18" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M27 36 C29.5 35 32.5 36.5 35 35" stroke="#8F4F18" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M8 26 C10.5 27 12 29 13.5 28" stroke="#8F4F18" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- ICONIC CHOCOLATE CHIPS -->
+  <g filter="url(#ckw-shadow)">
+    <!-- Chip 1: Bottom Right -->
+    <path d="M29 27 C31 25.5 34 26 35.5 28.5 C36.5 30.5 34.5 33 32 33 C29.5 33 28 30 29 27 Z" fill="url(#ckw-chip)"/>
+    <path d="M30.5 27 C32 26.5 34 27 34.5 28.5" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+    <!-- Chip 2: Left Middle -->
+    <path d="M11 20 C13.5 18.5 16 19.5 16.5 22 C17 24 14.5 26 12.5 25.5 C10.5 25 10 22 11 20 Z" fill="url(#ckw-chip)"/>
+    <path d="M12 20 C13.5 19.5 15 20 15.5 21.5" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+    <!-- Chip 3: Bottom Center -->
+    <path d="M18 34 C19.5 32.5 22 33 22.8 35 C23.5 36.5 21.8 38.5 20 38.5 C18 38.5 17 36 18 34 Z" fill="url(#ckw-chip)"/>
+    <!-- Chip 4: Top Left -->
+    <path d="M14 12 C15.5 11 17.5 12 18 13.5 C18.5 15 16.8 16 15.5 15.5 C14 15 13.5 13.5 14 12 Z" fill="url(#ckw-chip)"/>
+    <!-- Chip 5: Right Center -->
+    <path d="M37 17 C38.5 16 40.5 17 40.8 18.5 C41 20 39.5 21 38.2 20.8 C37 20.5 36.5 18.5 37 17 Z" fill="url(#ckw-chip)"/>
+  </g>
+
+  <!-- ARTISAN ROYAL ICING SWIRL (Frost) -->
+  <g filter="url(#ckw-shadow)">
+    <path d="M18 16 C22 10 32 10 35 15 C37 18 34 21 28 20 C22 19 20 23 23 25 C26 27 30 25 31 23" 
+          fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M20 15 C23 11 30 11 33 14" 
+          fill="none" stroke="#FFF4ED" stroke-width="1.4" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- MAGIC STAR SPRINKLE (Fable) -->
+  <g filter="url(#ckw-shadow)">
+    <path d="M27 9 C27 6.5 28.5 4 28.5 4 C28.5 4 30 6.5 30 9 C30 11.5 28.5 14 28.5 14 C28.5 14 27 11.5 27 9 Z" fill="url(#ckw-gold)"/>
+    <path d="M23.5 9 C26 9 28.5 7.5 28.5 7.5 C28.5 7.5 28.5 10.5 28.5 10.5 C28.5 10.5 31 9 33.5 9 C31 9 28.5 10.5 28.5 10.5 C28.5 10.5 28.5 13.5 28.5 13.5 C28.5 13.5 26 9 23.5 9 Z" fill="url(#ckw-gold)"/>
+    <circle cx="28.5" cy="9" r="1" fill="white"/>
+  </g>
+</svg>

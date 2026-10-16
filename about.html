@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About · Frost &amp; Fable</title>
 
-  <!-- Favicon — frosting swirl -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23E85A4F'/%3E%3Cpath d='M10 14 Q16 6 22 14 Q16 22 10 14' fill='%23FFF5F0'/%3E%3Ccircle cx='13' cy='19' r='2' fill='%23FFF5F0' opacity='0.9'/%3E%3Ccircle cx='20' cy='18' r='2.5' fill='%23FFF5F0' opacity='0.9'/%3E%3C/svg%3E"/>
+  <!-- Favicon — artisan cookie rosette & starlight -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="alternate icon" href="assets/logo-icon.svg" />
 
   <!-- Tailwind CSS CDN -->
   <script src="tailwind.js"></script>
@@ -320,23 +321,60 @@
   <div class="container mx-auto px-6">
     <div class="flex items-center justify-between h-20 md:h-24 py-3 md:py-0 relative">
       <!-- Logo -->
-      <a class='flex items-center gap-3 group shrink-0' href='index.html'>
-        <div class="w-11 h-11 bg-coral rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:rotate-6 transition duration-300 overflow-hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="w-full h-full p-1.5" fill="none">
-            <circle cx="18" cy="19" r="12" fill="#FFD3B6" opacity="0.95"/>
-            <path d="M12 16 Q18 8 24 16 Q18 24 12 16" fill="white" opacity="0.9"/>
-            <circle cx="14" cy="22" r="2" fill="#6B2D5C" opacity="0.6"/>
-            <circle cx="22" cy="21" r="2.2" fill="#6B2D5C" opacity="0.6"/>
-            <circle cx="17" cy="25" r="1.6" fill="#6B2D5C" opacity="0.5"/>
-            <path d="M27 12 L28.5 9 L30 12 L33 12.5 L30.5 14.5 L31.5 17.5 L28.5 15.5 L25.5 17.5 L26.5 14.5 L24 12.5 Z" fill="#FFF3B0" opacity="0.95"/>
-            <circle cx="10" cy="13" r="1.8" fill="white" opacity="0.9"/>
+      <a class='flex items-center gap-3.5 group shrink-0' href='index.html'>
+        <div class="w-11 h-11 md:w-12 md:h-12 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition duration-300 drop-shadow-md">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-full h-full" fill="none">
+            <defs>
+              <radialGradient id="ck-nav-dough" cx="35%" cy="40%" r="65%">
+                <stop offset="0%" stop-color="#FCE3BF"/>
+                <stop offset="35%" stop-color="#EDB87D"/>
+                <stop offset="75%" stop-color="#CF853F"/>
+                <stop offset="100%" stop-color="#995117"/>
+              </radialGradient>
+              <linearGradient id="ck-nav-chip" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#5E3125"/>
+                <stop offset="70%" stop-color="#381A12"/>
+                <stop offset="100%" stop-color="#1F0C07"/>
+              </linearGradient>
+              <linearGradient id="ck-nav-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFF6CC"/>
+                <stop offset="50%" stop-color="#FFD166"/>
+                <stop offset="100%" stop-color="#E88C30"/>
+              </linearGradient>
+            </defs>
+            <path d="M24 3.5 C12.5 3.5 3.5 12.7 3.5 24 C3.5 35.3 12.5 44.5 24 44.5 C35.3 44.5 44.5 35.3 44.5 24 C44.5 22 44.1 20 43.2 18.2 C41.5 18.8 39.5 18 38.5 16.2 C37.5 14.5 38 12.2 39.5 11 C38.5 9.2 36.8 8 34.8 8.2 C33 8.5 31.5 7.2 31.2 5.5 C30 4.2 27.2 3.5 24 3.5 Z" fill="url(#ck-nav-dough)"/>
+            <path d="M24 5 C13.5 5 5.5 13.5 5.5 24 C5.5 34.5 13.5 42.5 24 42.5 C34.5 42.5 42.5 34.5 42.5 24" stroke="#7C3E10" stroke-opacity="0.3" stroke-width="1.5" fill="none"/>
+            <path d="M42.5 19 C40.5 19.5 38.8 18.5 37.8 16.8 C36.8 15 37.2 12.8 38.8 11.5 C37.8 9.8 36 8.8 34 9" stroke="#FFE5C4" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.7"/>
+            <path d="M12 15 Q15 16 17 14" stroke="#8F4F18" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+            <path d="M24 22 Q27 21 29 23" stroke="#8F4F18" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+            <path d="M26 36 Q29 35 32 37" stroke="#8F4F18" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+            <path d="M11 28 Q14 29 15 31" stroke="#8F4F18" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+            <!-- Chocolate Chips (No white S) -->
+            <path d="M13 20 C15 18.5 17.5 19.5 18 22 C18.5 24 16.5 26 14.5 25.5 C12.5 25 12 22 13 20 Z" fill="url(#ck-nav-chip)"/>
+            <path d="M14 20 C15.5 19.5 17 20 17.5 21.5" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+            <path d="M28 26 C30 24.5 33 25 34.2 27.5 C35 29.5 33.2 32 31 32 C28.8 32 27.2 29 28 26 Z" fill="url(#ck-nav-chip)"/>
+            <path d="M29.5 26 C31 25.5 33 26 33.5 27.5" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+            <path d="M19 33 C20.5 31.5 23 32 23.8 34 C24.5 35.5 23 37.5 21 37.5 C19 37.5 18 35 19 33 Z" fill="url(#ck-nav-chip)"/>
+            <path d="M20 33 C21.2 32.5 22.5 33 23 34" stroke="white" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+            <path d="M21 13 C23 11 26 11.5 27 14 C27.8 16 26 18 24 18 C22 18 20.2 15.5 21 13 Z" fill="url(#ck-nav-chip)"/>
+            <path d="M22.5 13 C24 12 25.8 12.5 26.5 14" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+            <path d="M35 32 C36.5 31 38.5 32 38.8 33.5 C39 35 37.5 36 36.2 35.8 C35 35.5 34.5 33.5 35 32 Z" fill="url(#ck-nav-chip)"/>
+            <path d="M14 10 C15.5 8.8 17.5 9.5 18 11 C18.5 12.5 16.8 13.5 15.5 13 C14 12.5 13.5 11 14 10 Z" fill="url(#ck-nav-chip)"/>
+            <!-- Magic Star -->
+            <path d="M30 7 C30 5 31 3.2 31 3.2 C31 3.2 32 5 32 7 C32 9 31 10.8 31 10.8 C31 10.8 30 9 30 7 Z" fill="url(#ck-nav-gold)"/>
+            <path d="M27.2 7 C29.2 7 31 6 31 6 C31 6 31 8 31 8 C31 8 32.8 7 34.8 7 C32.8 7 31 8 31 8 C31 8 31 10 31 10 C31 10 29.2 7 27.2 7 Z" fill="url(#ck-nav-gold)"/>
+            <circle cx="31" cy="7" r="0.9" fill="white"/>
+            <!-- Crumbs -->
+            <circle cx="43" cy="12" r="0.9" fill="#EDB77B"/>
+            <circle cx="38" cy="5" r="0.7" fill="#EDB77B"/>
+            <circle cx="45" cy="17" r="0.8" fill="#5E3125"/>
           </svg>
         </div>
         <div class="leading-tight">
           <span class="text-xl md:text-2xl font-display font-black tracking-tight">
-            <span class="text-plum dark:text-cream">Frost</span><span class="text-coral"> &amp; </span><span class="text-plum dark:text-cream">Fable</span>
+            <span class="text-plum dark:text-cream">Frost</span><span class="font-serif italic font-medium text-coral mx-0.5">&amp;</span><span class="text-plum dark:text-cream">Fable</span>
           </span>
-          <div class="text-[10px] font-bold tracking-[0.2em] uppercase text-coral font-bold">Cookie Atelier</div>
+          <div class="text-[9.5px] font-extrabold tracking-[0.28em] uppercase text-coral dark:text-coral/90 mt-0.5">Cookie Atelier</div>
         </div>
       </a>
 
@@ -746,19 +784,56 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
       <!-- Brand -->
       <div class="text-center md:text-start">
-        <a href="index.html" class="inline-flex items-center justify-center md:justify-start gap-3 mb-6 group">
-          <div class="w-11 h-11 bg-coral rounded-2xl flex items-center justify-center shadow-lg overflow-hidden group-hover:rotate-6 transition duration-300">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" class="w-full h-full p-1.5" fill="none">
-              <circle cx="18" cy="19" r="12" fill="#FFD3B6" opacity="0.95"/>
-              <path d="M12 16 Q18 8 24 16 Q18 24 12 16" fill="white" opacity="0.9"/>
-              <circle cx="14" cy="22" r="2" fill="#6B2D5C" opacity="0.6"/>
-              <circle cx="22" cy="21" r="2.2" fill="#6B2D5C" opacity="0.6"/>
-              <path d="M27 12 L28.5 9 L30 12 L33 12.5 L30.5 14.5 L31.5 17.5 L28.5 15.5 L25.5 17.5 L26.5 14.5 L24 12.5 Z" fill="#FFF3B0" opacity="0.95"/>
+        <a href="index.html" class="inline-flex items-center justify-center md:justify-start gap-3.5 mb-6 group">
+          <div class="w-11 h-11 md:w-12 md:h-12 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition duration-300 drop-shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="w-full h-full" fill="none">
+              <defs>
+                <radialGradient id="ck-ft-dough" cx="35%" cy="40%" r="65%">
+                  <stop offset="0%" stop-color="#FCE3BF"/>
+                  <stop offset="35%" stop-color="#EDB87D"/>
+                  <stop offset="75%" stop-color="#CF853F"/>
+                  <stop offset="100%" stop-color="#995117"/>
+                </radialGradient>
+                <linearGradient id="ck-ft-chip" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#5E3125"/>
+                  <stop offset="70%" stop-color="#381A12"/>
+                  <stop offset="100%" stop-color="#1F0C07"/>
+                </linearGradient>
+                <linearGradient id="ck-ft-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#FFF6CC"/>
+                  <stop offset="50%" stop-color="#FFD166"/>
+                  <stop offset="100%" stop-color="#E88C30"/>
+                </linearGradient>
+              </defs>
+              <path d="M24 3.5 C12.5 3.5 3.5 12.7 3.5 24 C3.5 35.3 12.5 44.5 24 44.5 C35.3 44.5 44.5 35.3 44.5 24 C44.5 22 44.1 20 43.2 18.2 C41.5 18.8 39.5 18 38.5 16.2 C37.5 14.5 38 12.2 39.5 11 C38.5 9.2 36.8 8 34.8 8.2 C33 8.5 31.5 7.2 31.2 5.5 C30 4.2 27.2 3.5 24 3.5 Z" fill="url(#ck-ft-dough)"/>
+              <path d="M24 5 C13.5 5 5.5 13.5 5.5 24 C5.5 34.5 13.5 42.5 24 42.5 C34.5 42.5 42.5 34.5 42.5 24" stroke="#7C3E10" stroke-opacity="0.3" stroke-width="1.5" fill="none"/>
+              <path d="M42.5 19 C40.5 19.5 38.8 18.5 37.8 16.8 C36.8 15 37.2 12.8 38.8 11.5 C37.8 9.8 36 8.8 34 9" stroke="#FFE5C4" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.7"/>
+              <path d="M12 15 Q15 16 17 14" stroke="#8F4F18" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+              <path d="M24 22 Q27 21 29 23" stroke="#8F4F18" stroke-width="1.1" stroke-linecap="round" opacity="0.6"/>
+              <path d="M26 36 Q29 35 32 37" stroke="#8F4F18" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
+              <path d="M11 28 Q14 29 15 31" stroke="#8F4F18" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+              <!-- Chocolate Chips (No white S) -->
+              <path d="M13 20 C15 18.5 17.5 19.5 18 22 C18.5 24 16.5 26 14.5 25.5 C12.5 25 12 22 13 20 Z" fill="url(#ck-ft-chip)"/>
+              <path d="M14 20 C15.5 19.5 17 20 17.5 21.5" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+              <path d="M28 26 C30 24.5 33 25 34.2 27.5 C35 29.5 33.2 32 31 32 C28.8 32 27.2 29 28 26 Z" fill="url(#ck-ft-chip)"/>
+              <path d="M29.5 26 C31 25.5 33 26 33.5 27.5" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+              <path d="M19 33 C20.5 31.5 23 32 23.8 34 C24.5 35.5 23 37.5 21 37.5 C19 37.5 18 35 19 33 Z" fill="url(#ck-ft-chip)"/>
+              <path d="M20 33 C21.2 32.5 22.5 33 23 34" stroke="white" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+              <path d="M21 13 C23 11 26 11.5 27 14 C27.8 16 26 18 24 18 C22 18 20.2 15.5 21 13 Z" fill="url(#ck-ft-chip)"/>
+              <path d="M22.5 13 C24 12 25.8 12.5 26.5 14" stroke="white" stroke-width="0.8" stroke-linecap="round" opacity="0.45"/>
+              <path d="M35 32 C36.5 31 38.5 32 38.8 33.5 C39 35 37.5 36 36.2 35.8 C35 35.5 34.5 33.5 35 32 Z" fill="url(#ck-ft-chip)"/>
+              <path d="M14 10 C15.5 8.8 17.5 9.5 18 11 C18.5 12.5 16.8 13.5 15.5 13 C14 12.5 13.5 11 14 10 Z" fill="url(#ck-ft-chip)"/>
+              <path d="M30 7 C30 5 31 3.2 31 3.2 C31 3.2 32 5 32 7 C32 9 31 10.8 31 10.8 C31 10.8 30 9 30 7 Z" fill="url(#ck-ft-gold)"/>
+              <path d="M27.2 7 C29.2 7 31 6 31 6 C31 6 31 8 31 8 C31 8 32.8 7 34.8 7 C32.8 7 31 8 31 8 C31 8 31 10 31 10 C31 10 29.2 7 27.2 7 Z" fill="url(#ck-ft-gold)"/>
+              <circle cx="31" cy="7" r="0.9" fill="white"/>
+              <circle cx="43" cy="12" r="0.9" fill="#EDB77B"/>
+              <circle cx="38" cy="5" r="0.7" fill="#EDB77B"/>
+              <circle cx="45" cy="17" r="0.8" fill="#5E3125"/>
             </svg>
           </div>
           <div class="leading-tight text-start">
-            <span class="text-xl md:text-2xl font-display font-black tracking-tight"><span class="text-cream">Frost</span><span class="text-coral"> &amp; </span><span class="text-cream">Fable</span></span>
-            <div class="text-[10px] font-bold tracking-[0.2em] uppercase text-coral/80">Cookie Atelier</div>
+            <span class="text-xl md:text-2xl font-display font-black tracking-tight"><span class="text-cream">Frost</span><span class="font-serif italic font-medium text-coral mx-0.5">&amp;</span><span class="text-cream">Fable</span></span>
+            <div class="text-[9.5px] font-extrabold tracking-[0.28em] uppercase text-coral/80 mt-0.5">Cookie Atelier</div>
           </div>
         </a>
         <p class="mb-5 text-cream/90 text-sm leading-relaxed">Hand-decorated cookies &amp; desserts for every celebration. Baked with joy in our atelier.</p>

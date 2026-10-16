@@ -581,66 +581,68 @@
 </nav>
 
 <!-- ======== CLASSES HERO — Split Asymmetric with Schedule ======== -->
-<section class="relative min-h-[75vh] flex items-center pt-28 md:pt-32 pb-16 overflow-hidden bg-gradient-to-br from-cream via-blush/30 to-peach/20 dark:from-[#2A1A1F] dark:via-[#3D2A30] dark:to-[#4A2C3A]">
+<section class="relative min-h-[75vh] flex items-center pt-28 md:pt-32 pb-16 overflow-hidden bg-cream dark:bg-[#2A1A1F]">
   <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none opacity-85 dark:opacity-80">
     <img src="assets/l1.jpg" alt="Hero background" class="w-full h-full object-cover"/>
     <div class="absolute inset-0 hero-radial-overlay"></div>
   </div>
-  <div class="absolute inset-0 hero-classes-glow pointer-events-none"></div>
+  <!-- Ambient warmth -->
+  <div class="absolute top-20 left-[10%] w-24 h-24 bg-coral/5 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute bottom-20 right-[10%] w-32 h-32 bg-coral/5 rounded-full blur-3xl pointer-events-none"></div>
 
   <div class="container mx-auto px-6 relative z-10">
     <div class="max-w-4xl mx-auto text-center">
-      <span class="section-label bg-coral/10 text-coral dark:bg-coral/20 mb-6 inline-flex animate-pop-in">
-        <i class="fas fa-chalkboard-user"></i> Hands-On Classes
+      <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-white/90 dark:bg-white/10 text-cocoa/80 dark:text-cream/90 border border-cocoa/10 dark:border-white/15 backdrop-blur-md shadow-sm mb-6 animate-pop-in">
+        <i class="fas fa-chalkboard-user text-coral text-sm"></i> Hands-On Classes
       </span>
-      <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-black leading-[1.1] mb-6 text-plum dark:text-cream animate-slide-up">
-        Learn to <span class="text-coral italic">decorate</span> like a pro
+      <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-black leading-[1.08] mb-6 text-cocoa dark:text-cream animate-slide-up tracking-tight">
+        Learn to <span class="font-serif italic font-medium text-coral">decorate</span> like a pro
       </h1>
-      <p class="text-lg md:text-xl text-plum/90 dark:text-cream/90 font-bold mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up" style="animation-delay:0.1s">
+      <p class="text-base md:text-lg text-cocoa/75 dark:text-cream/80 max-w-2xl mx-auto mb-10 leading-relaxed font-medium animate-slide-up" style="animation-delay:0.1s">
         Join us in the atelier for small-group classes where you'll pipe, flood, and paint your own set of beautiful cookies. All supplies included — just bring your creativity.
       </p>
       <div class="flex flex-wrap justify-center gap-4 mb-12 animate-slide-up" style="animation-delay:0.2s">
-        <a href="#class-schedule" class="btn-primary px-9 py-4 rounded-full inline-flex items-center gap-2 text-base font-bold shadow-xl hover:scale-105 transition">
+        <a href="#class-schedule" class="btn-primary px-8 py-4 rounded-full inline-flex items-center gap-2 text-base shadow-lg shadow-coral/20 hover:shadow-xl hover:shadow-coral/30 hover:-translate-y-0.5 transition">
           <i class="fas fa-calendar-check"></i> Book a Class
         </a>
-        <a href="#private-events" class="btn-outline px-9 py-4 rounded-full inline-flex items-center gap-2 text-base font-bold hover:bg-coral/10 transition">
-          <i class="fas fa-users"></i> Private Events
+        <a href="#private-events" class="px-8 py-4 rounded-full inline-flex items-center gap-2 text-base font-bold bg-white/90 dark:bg-white/10 text-cocoa dark:text-cream border border-cocoa/15 dark:border-white/20 hover:border-coral hover:text-coral hover:bg-white dark:hover:bg-white/15 transition shadow-sm hover:-translate-y-0.5">
+          <i class="fas fa-users text-coral/80"></i> Private Events
         </a>
       </div>
 
       <!-- Quick stats bar -->
-      <div class="inline-flex flex-col sm:flex-row items-start sm:items-center justify-center gap-5 sm:gap-12 bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-xl border border-coral/15 dark:border-coral/25 shadow-xl rounded-3xl sm:rounded-full px-7 sm:px-12 py-6 sm:py-5 animate-fade-in max-w-full" style="animation-delay:0.35s">
+      <div class="inline-flex flex-col sm:flex-row items-start sm:items-center justify-center gap-5 sm:gap-12 bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-xl border border-cocoa/10 dark:border-white/10 shadow-lg rounded-3xl sm:rounded-full px-7 sm:px-12 py-6 sm:py-5 animate-fade-in max-w-full" style="animation-delay:0.35s">
         <div class="flex items-center gap-3.5 w-full sm:w-auto">
-          <div class="w-11 h-11 bg-coral/10 rounded-2xl flex items-center justify-center shrink-0">
+          <div class="w-11 h-11 bg-coral/10 dark:bg-coral/20 rounded-2xl flex items-center justify-center shrink-0">
             <i class="fas fa-user-group text-coral text-base"></i>
           </div>
           <div class="text-start">
-            <div class="font-black font-display text-plum dark:text-cream text-lg leading-none mb-1">Max 8</div>
-            <div class="text-[10px] text-cocoa/90 dark:text-cream/90 font-bold uppercase tracking-wider">Per class</div>
+            <div class="font-black font-display text-cocoa dark:text-cream text-lg leading-none mb-1">Max 8</div>
+            <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Per class</div>
           </div>
         </div>
 
-        <div class="hidden sm:block w-px h-8 bg-coral/15 dark:bg-cream/15"></div>
+        <div class="hidden sm:block w-px h-8 bg-cocoa/10 dark:border-white/10"></div>
 
         <div class="flex items-center gap-3.5 w-full sm:w-auto">
-          <div class="w-11 h-11 bg-mint/30 rounded-2xl flex items-center justify-center shrink-0">
+          <div class="w-11 h-11 bg-coral/10 dark:bg-coral/20 rounded-2xl flex items-center justify-center shrink-0">
             <i class="fas fa-clock text-coral text-base"></i>
           </div>
           <div class="text-start">
-            <div class="font-black font-display text-plum dark:text-cream text-lg leading-none mb-1">2.5 hrs</div>
-            <div class="text-[10px] text-cocoa/90 dark:text-cream/90 font-bold uppercase tracking-wider">Typical length</div>
+            <div class="font-black font-display text-cocoa dark:text-cream text-lg leading-none mb-1">2.5 hrs</div>
+            <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Typical length</div>
           </div>
         </div>
 
-        <div class="hidden sm:block w-px h-8 bg-coral/15 dark:bg-cream/15"></div>
+        <div class="hidden sm:block w-px h-8 bg-cocoa/10 dark:border-white/10"></div>
 
         <div class="flex items-center gap-3.5 w-full sm:w-auto">
-          <div class="w-11 h-11 bg-lemon/40 rounded-2xl flex items-center justify-center shrink-0">
+          <div class="w-11 h-11 bg-coral/10 dark:bg-coral/20 rounded-2xl flex items-center justify-center shrink-0">
             <i class="fas fa-cookie-bite text-coral text-base"></i>
           </div>
           <div class="text-start">
-            <div class="font-black font-display text-plum dark:text-cream text-lg leading-none mb-1">6+</div>
-            <div class="text-[10px] text-cocoa/90 dark:text-cream/90 font-bold uppercase tracking-wider">Cookies to take home</div>
+            <div class="font-black font-display text-cocoa dark:text-cream text-lg leading-none mb-1">6+</div>
+            <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Cookies to take home</div>
           </div>
         </div>
       </div>

@@ -653,44 +653,46 @@
 </nav>
 
 <!-- ======== CONTACT HERO — Split with Quick Contact Cards ======== -->
-<section class="relative min-h-[60vh] flex items-center pt-28 md:pt-32 pb-16 overflow-hidden bg-gradient-to-br from-cream via-blush/30 to-peach/20 dark:from-[#2A1A1F] dark:via-[#3D2A30] dark:to-[#4A2C3A]">
+<section class="relative min-h-[60vh] flex items-center pt-28 md:pt-32 pb-16 overflow-hidden bg-cream dark:bg-[#2A1A1F]">
   <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none opacity-85 dark:opacity-80">
     <img src="assets/p1.jpg" alt="Hero background" class="w-full h-full object-cover"/>
     <div class="absolute inset-0 hero-radial-overlay"></div>
   </div>
-  <div class="absolute inset-0 contact-hero-glow pointer-events-none"></div>
+  <!-- Ambient warmth -->
+  <div class="absolute top-20 left-[10%] w-24 h-24 bg-coral/5 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute bottom-20 right-[10%] w-32 h-32 bg-coral/5 rounded-full blur-3xl pointer-events-none"></div>
 
   <div class="container mx-auto px-6 relative z-10">
     <div class="max-w-3xl mx-auto text-center">
-      <span class="section-label bg-coral/10 text-coral dark:bg-coral/20 mb-6 inline-flex animate-pop-in">
-        <i class="fas fa-envelope-open-text"></i> Get in Touch
+      <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-white/90 dark:bg-white/10 text-cocoa/80 dark:text-cream/90 border border-cocoa/10 dark:border-white/15 backdrop-blur-md shadow-sm mb-6 animate-pop-in">
+        <i class="fas fa-envelope-open-text text-coral text-sm"></i> Get in Touch
       </span>
-      <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6 text-plum dark:text-cream animate-slide-up">
+      <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-black leading-[1.08] mb-6 text-cocoa dark:text-cream animate-slide-up tracking-tight">
         Let's talk<br/>
-        <span class="text-coral">sweet</span> things
+        <span class="font-serif italic font-medium text-coral">sweet</span> things
       </h1>
-      <p class="text-lg md:text-xl text-plum/90 dark:text-cream/90 font-bold mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up" style="animation-delay:0.1s">
+      <p class="text-base md:text-lg text-cocoa/75 dark:text-cream/80 max-w-2xl mx-auto mb-10 leading-relaxed font-medium animate-slide-up" style="animation-delay:0.1s">
         Questions about an order? Want to book a class? Just want to say hi? We'd love to hear from you. We typically reply within a few hours.
       </p>
 
       <!-- Quick contact chips -->
       <div class="flex flex-wrap justify-center gap-4 animate-slide-up" style="animation-delay:0.2s">
-        <a href="tel:5553927933" class="inline-flex items-center gap-3 bg-white dark:bg-[#3D2A30] px-6 py-3.5 rounded-2xl shadow-lg border border-coral/10 dark:border-coral/20 hover:border-coral hover:-translate-y-1 transition duration-300">
-          <div class="w-10 h-10 bg-coral/10 rounded-xl flex items-center justify-center">
-            <i class="fas fa-phone text-coral"></i>
+        <a href="tel:5553927933" class="inline-flex items-center gap-3 bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-md px-6 py-3.5 rounded-2xl shadow-sm border border-cocoa/10 dark:border-white/10 hover:border-coral hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+          <div class="w-10 h-10 bg-coral/10 dark:bg-coral/20 rounded-xl flex items-center justify-center text-coral">
+            <i class="fas fa-phone"></i>
           </div>
           <div class="text-left">
-            <div class="text-[10px] text-cocoa/85 dark:text-cream/85 font-bold uppercase tracking-wider">Call us</div>
-            <div class="font-bold text-plum dark:text-cream text-sm">(555) 392-SWEET</div>
+            <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Call us</div>
+            <div class="font-bold text-cocoa dark:text-cream text-sm">(555) 392-SWEET</div>
           </div>
         </a>
-        <a href="mailto:hello@frostandfable.com" class="inline-flex items-center gap-3 bg-white dark:bg-[#3D2A30] px-6 py-3.5 rounded-2xl shadow-lg border border-coral/10 dark:border-coral/20 hover:border-coral hover:-translate-y-1 transition duration-300">
-          <div class="w-10 h-10 bg-mint/30 rounded-xl flex items-center justify-center">
-            <i class="fas fa-envelope text-coral"></i>
+        <a href="mailto:hello@frostandfable.com" class="inline-flex items-center gap-3 bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-md px-6 py-3.5 rounded-2xl shadow-sm border border-cocoa/10 dark:border-white/10 hover:border-coral hover:shadow-md hover:-translate-y-0.5 transition duration-300">
+          <div class="w-10 h-10 bg-coral/10 dark:bg-coral/20 rounded-xl flex items-center justify-center text-coral">
+            <i class="fas fa-envelope"></i>
           </div>
           <div class="text-left">
-            <div class="text-[10px] text-cocoa/85 dark:text-cream/85 font-bold uppercase tracking-wider">Email us</div>
-            <div class="font-bold text-plum dark:text-cream text-sm">hello@frostandfable.com</div>
+            <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Email us</div>
+            <div class="font-bold text-cocoa dark:text-cream text-sm">hello@frostandfable.com</div>
           </div>
         </a>
       </div>

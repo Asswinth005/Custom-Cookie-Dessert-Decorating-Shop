@@ -633,40 +633,41 @@
 </nav>
 
 <!-- ======== GALLERY HERO — Centered with Stats ======== -->
-<section class="relative min-h-[65vh] flex items-center pt-28 md:pt-32 pb-16 overflow-hidden bg-gradient-to-b from-cream via-blush/30 to-peach/20 dark:from-[#2A1A1F] dark:via-[#3D2A30] dark:to-[#4A2C3A]">
+<section class="relative min-h-[65vh] flex items-center pt-28 md:pt-32 pb-16 overflow-hidden bg-cream dark:bg-[#2A1A1F]">
   <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none opacity-85 dark:opacity-80">
     <img src="assets/h11.jpg" alt="Hero background" class="w-full h-full object-cover"/>
     <div class="absolute inset-0 hero-radial-overlay"></div>
   </div>
-  <div class="absolute inset-0 hero-gallery-glow pointer-events-none"></div>
+  <!-- Ambient warmth -->
+  <div class="absolute top-20 left-[10%] w-24 h-24 bg-coral/5 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute bottom-20 right-[10%] w-32 h-32 bg-coral/5 rounded-full blur-3xl pointer-events-none"></div>
 
   <div class="container mx-auto px-6 relative z-10">
     <div class="max-w-3xl mx-auto text-center">
-      <span class="section-label bg-coral/10 text-coral dark:bg-coral/20 mb-6 inline-flex animate-pop-in">
-        <i class="fas fa-camera-retro"></i> Our Gallery
+      <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-white/90 dark:bg-white/10 text-cocoa/80 dark:text-cream/90 border border-cocoa/10 dark:border-white/15 backdrop-blur-md shadow-sm mb-6 animate-pop-in">
+        <i class="fas fa-camera-retro text-coral text-sm"></i> Our Gallery
       </span>
-      <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] mb-6 text-plum dark:text-cream animate-slide-up">
-        Every cookie<br/>
-        tells a
-        <br/><span class="text-coral">sweet story</span>
+      <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-black leading-[1.08] mb-6 text-cocoa dark:text-cream animate-slide-up tracking-tight">
+        Every cookie tells a<br/>
+        <span class="font-serif italic font-medium text-coral">sweet story</span>
       </h1>
-      <p class="text-lg md:text-xl text-plum/90 dark:text-cream/90 font-bold mb-10 max-w-2xl mx-auto leading-relaxed animate-slide-up" style="animation-delay:0.1s">
+      <p class="text-base md:text-lg text-cocoa/75 dark:text-cream/80 max-w-2xl mx-auto mb-8 leading-relaxed font-medium animate-slide-up" style="animation-delay:0.1s">
         A curated collection of our favorite creations — from intricate wedding sets to playful birthday designs. Get inspired for your next celebration.
       </p>
 
       <!-- Stats -->
-      <div class="flex flex-wrap justify-center gap-6 mt-10 animate-fade-in" style="animation-delay:0.3s">
-        <div class="stat-bubble bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-sm shadow-md border border-plum/10 dark:border-rose/20 px-6 py-3 rounded-2xl">
+      <div class="flex flex-wrap justify-center gap-4 md:gap-6 mt-8 animate-fade-in" style="animation-delay:0.25s">
+        <div class="stat-bubble bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-md shadow-sm border border-cocoa/10 dark:border-white/10 px-7 py-3 rounded-2xl">
           <div class="font-display font-black text-2xl text-coral">500+</div>
-          <div class="text-[10px] text-plum/95 dark:text-cream/80 font-bold uppercase tracking-wider">Creations</div>
+          <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Creations</div>
         </div>
-        <div class="stat-bubble bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-sm shadow-md border border-plum/10 dark:border-rose/20 px-6 py-3 rounded-2xl">
+        <div class="stat-bubble bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-md shadow-sm border border-cocoa/10 dark:border-white/10 px-7 py-3 rounded-2xl">
           <div class="font-display font-black text-2xl text-coral">8</div>
-          <div class="text-[10px] text-plum/95 dark:text-cream/80 font-bold uppercase tracking-wider">Categories</div>
+          <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Categories</div>
         </div>
-        <div class="stat-bubble bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-sm shadow-md border border-plum/10 dark:border-rose/20 px-6 py-3 rounded-2xl">
+        <div class="stat-bubble bg-white/90 dark:bg-[#3D2A30]/90 backdrop-blur-md shadow-sm border border-cocoa/10 dark:border-white/10 px-7 py-3 rounded-2xl">
           <div class="font-display font-black text-2xl text-coral">100%</div>
-          <div class="text-[10px] text-plum/95 dark:text-cream/80 font-bold uppercase tracking-wider">Handmade</div>
+          <div class="text-[10px] text-cocoa/70 dark:text-cream/70 font-bold uppercase tracking-wider">Handmade</div>
         </div>
       </div>
     </div>

@@ -332,13 +332,14 @@
 
     /* Cards & Stats */
     .stat-card {
-      padding: 2.25rem 1.75rem;
-      border-radius: 24px;
+      padding: 1.25rem 1rem;
+      border-radius: 18px;
+      text-align: center;
       transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
     }
     .stat-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 20px 40px -15px rgba(232, 90, 79, 0.3);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px -10px rgba(232, 90, 79, 0.3);
     }
     .card-sweet {
       background: white;
@@ -524,61 +525,45 @@
   </div>
   <div class="container mx-auto px-6 relative z-10 text-center">
     <!-- Refined Neutral Badge -->
-    <div class="inline-flex items-center gap-2 bg-white/90 dark:bg-white/10 text-cocoa/80 dark:text-cream/90 border border-cocoa/10 dark:border-white/15 px-5 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase mb-8 shadow-sm">
-      <i class="fas fa-sparkles text-coral"></i> New Seasonal Collection
+    <div class="inline-flex items-center gap-2 bg-white/90 dark:bg-white/10 text-cocoa/80 dark:text-cream/90 border border-coral/20 dark:border-white/15 px-5 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase mb-8 shadow-sm">
+      <i class="fas fa-sparkles text-coral"></i> Artisanal Cookie Atelier &amp; Dessert Studio
     </div>
 
     <!-- Headline: Balanced hierarchy -->
-    <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-black text-cocoa dark:text-cream leading-[1.02] mb-6 max-w-5xl mx-auto tracking-tight">
+    <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-black text-cocoa dark:text-cream leading-[1.04] mb-6 max-w-5xl mx-auto tracking-tight">
       Where every<br/>
       <span class="font-serif italic font-medium text-coral">cookie</span> tells a story
     </h1>
 
-    <p class="text-lg md:text-xl text-cocoa/75 dark:text-cream/80 font-medium max-w-2xl mx-auto mb-12 leading-relaxed">
-      Personalised cookies, dessert tables &amp; decorating classes — crafted to make your moments unforgettable.
+    <p class="text-lg md:text-xl lg:text-2xl text-cocoa/80 dark:text-cream/85 font-medium max-w-2xl mx-auto mb-10 leading-relaxed">
+      Handcrafted personalised cookies, bespoke dessert tables &amp; decorating masterclasses — crafted to make your sweetest celebrations unforgettable.
     </p>
 
-    <!-- Harmonized showcase cards (Consistent brand palette without rainbow clash) -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-      <div class="card-sweet p-5 rounded-2xl text-left border border-coral/10 shadow-sm hover:shadow-md transition">
-        <div class="w-11 h-11 bg-coral/10 dark:bg-coral/20 rounded-xl flex items-center justify-center mb-3">
-          <i class="fas fa-cake-candles text-coral text-lg"></i>
-        </div>
-        <div class="text-cocoa dark:text-cream font-display font-black text-lg">Birthday</div>
-        <div class="text-cocoa/70 dark:text-cream/70 text-xs font-semibold">Custom sets from $32</div>
-      </div>
-      <div class="card-sweet p-5 rounded-2xl text-left border border-coral/10 shadow-sm hover:shadow-md transition">
-        <div class="w-11 h-11 bg-coral/10 dark:bg-coral/20 rounded-xl flex items-center justify-center mb-3">
-          <i class="fas fa-heart text-coral text-lg"></i>
-        </div>
-        <div class="text-cocoa dark:text-cream font-display font-black text-lg">Wedding</div>
-        <div class="text-cocoa/70 dark:text-cream/70 text-xs font-semibold">Favors &amp; towers</div>
-      </div>
-      <div class="card-sweet p-5 rounded-2xl text-left border border-coral/10 shadow-sm hover:shadow-md transition">
-        <div class="w-11 h-11 bg-coral/10 dark:bg-coral/20 rounded-xl flex items-center justify-center mb-3">
-          <i class="fas fa-briefcase text-coral text-lg"></i>
-        </div>
-        <div class="text-cocoa dark:text-cream font-display font-black text-lg">Corporate</div>
-        <div class="text-cocoa/70 dark:text-cream/70 text-xs font-semibold">Logo &amp; bulk orders</div>
-      </div>
-      <div class="card-sweet p-5 rounded-2xl text-left border border-coral/10 shadow-sm hover:shadow-md transition">
-        <div class="w-11 h-11 bg-coral/10 dark:bg-coral/20 rounded-xl flex items-center justify-center mb-3">
-          <i class="fas fa-chalkboard-user text-coral text-lg"></i>
-        </div>
-        <div class="text-cocoa dark:text-cream font-display font-black text-lg">Classes</div>
-        <div class="text-cocoa/70 dark:text-cream/70 text-xs font-semibold">Weekly sessions</div>
-      </div>
+    <!-- Clear Primary CTA & Secondary Action -->
+    <div class="flex flex-wrap items-center justify-center gap-4 mb-12">
+      <a href="custom.html" class="btn-primary px-9 py-4 rounded-full inline-flex items-center gap-3 text-base md:text-lg font-bold shadow-xl shadow-coral/30 hover:scale-105 transition-all">
+        <i class="fas fa-wand-magic-sparkles"></i>
+        <span>Order Custom Cookies</span>
+        <i class="fas fa-arrow-right text-sm"></i>
+      </a>
+      <a href="products.html" class="btn-outline px-8 py-4 rounded-full inline-flex items-center gap-2.5 text-base md:text-lg font-bold transition-all hover:scale-105">
+        <i class="fas fa-cookie-bite"></i>
+        <span>Explore Collections</span>
+      </a>
+    </div>
+
+    
     </div>
   </div>
 
   <!-- Scroll indicator -->
-  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 text-plum/90 dark:text-cream/95">
+  <a href="#featured-trust" class="absolute bottom-6 left-1/2 -translate-x-1/2 text-plum/70 dark:text-cream/70 hover:text-coral transition-colors animate-bounce" title="Scroll down">
     <i class="fas fa-chevron-down text-xl"></i>
-  </div>
+  </a>
 </section>
 
 <!-- ======== FEATURED IN / TRUST BAR ======== -->
-<section class="py-6 bg-cream dark:bg-[#25161A] border-b border-plum/5 dark:border-cream/5">
+<section id="featured-trust" class="py-6 bg-cream dark:bg-[#25161A] border-b border-plum/5 dark:border-cream/5">
   <div class="container mx-auto px-6">
     <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8">
       <div class="flex items-center gap-2.5 text-plum dark:text-cream font-display font-bold text-sm bg-coral/5 dark:bg-coral/10 px-5 py-2.5 rounded-full border border-coral/10">
@@ -597,24 +582,24 @@
   </div>
 </section>
 <!-- ======== STATS — Bento Grid ======== -->
-<section class="py-20 bg-plum dark:bg-[#1F1216]">
+<section class="py-8 md:py-10 bg-plum dark:bg-[#1F1216]">
   <div class="container mx-auto px-6">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+    <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
       <div class="stat-card bg-white/5 backdrop-blur border border-white/10 hover:border-coral">
-        <div class="text-4xl md:text-5xl font-display font-black text-coral mb-2">80+</div>
-        <div class="text-xs uppercase font-bold tracking-widest text-cream/90">Cookie designs</div>
+        <div class="text-3xl md:text-4xl font-display font-black text-coral mb-1">80+</div>
+        <div class="text-[11px] md:text-xs uppercase font-bold tracking-wider text-cream/90">Cookie designs</div>
       </div>
       <div class="stat-card bg-white/5 backdrop-blur border border-white/10 hover:border-coral">
-        <div class="text-4xl md:text-5xl font-display font-black text-lemon mb-2">12</div>
-        <div class="text-xs uppercase font-bold tracking-widest text-cream/90">Occasion themes</div>
+        <div class="text-3xl md:text-4xl font-display font-black text-lemon mb-1">12</div>
+        <div class="text-[11px] md:text-xs uppercase font-bold tracking-wider text-cream/90">Occasion themes</div>
       </div>
       <div class="stat-card bg-white/5 backdrop-blur border border-white/10 hover:border-coral">
-        <div class="text-4xl md:text-5xl font-display font-black text-mint mb-2">4.9★</div>
-        <div class="text-xs uppercase font-bold tracking-widest text-cream/90">Customer rating</div>
+        <div class="text-3xl md:text-4xl font-display font-black text-mint mb-1">4.9★</div>
+        <div class="text-[11px] md:text-xs uppercase font-bold tracking-wider text-cream/90">Customer rating</div>
       </div>
       <div class="stat-card bg-white/5 backdrop-blur border border-white/10 hover:border-coral">
-        <div class="text-4xl md:text-5xl font-display font-black text-rose mb-2">200+</div>
-        <div class="text-xs uppercase font-bold tracking-widest text-cream/90">Classes taught</div>
+        <div class="text-3xl md:text-4xl font-display font-black text-rose mb-1">200+</div>
+        <div class="text-[11px] md:text-xs uppercase font-bold tracking-wider text-cream/90">Classes taught</div>
       </div>
     </div>
   </div>

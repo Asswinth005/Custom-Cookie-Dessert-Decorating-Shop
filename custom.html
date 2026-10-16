@@ -566,16 +566,20 @@
 
       <!-- Actions -->
       <div class="flex items-center gap-2 xl:gap-3 ms-auto">
-        <a href="contact.html" class="hidden xl:inline-flex btn-primary py-2.5 px-6 rounded-full text-sm font-bold items-center gap-2 shadow-lg hover:scale-105 transition">
-          <i class="fas fa-bag-shopping"></i> Order Now
-        </a>
-        <button id="theme-toggle" class="hidden xl:flex w-10 h-10 rounded-full bg-coral/15 dark:bg-coral/20 text-coral hover:scale-110 transition items-center justify-center">
-          <i class="fas fa-moon dark:hidden"></i>
-          <i class="fas fa-sun hidden dark:inline"></i>
-        </button>
         <button id="rtl-toggle" class="hidden xl:flex w-10 h-10 rounded-full bg-coral/15 dark:bg-coral/20 text-coral hover:scale-110 transition items-center justify-center font-bold text-base">
           ⇄
         </button>
+        <button id="theme-toggle" class="hidden xl:flex w-10 h-10 rounded-full bg-coral/15 dark:bg-coral/20 text-coral hover:scale-110 transition items-center justify-center" title="Toggle Dark/Light Mode">
+          <i class="fas fa-moon dark:hidden"></i>
+          <i class="fas fa-sun hidden dark:inline"></i>
+        </button>
+        <a href="login.html" class="hidden xl:inline-flex btn-outline py-2.5 px-5 text-sm font-bold items-center gap-2">
+          <i class="fas fa-user text-xs"></i>
+          <span>Login</span>
+        </a>
+        <a href="contact.html" class="hidden xl:inline-flex btn-primary py-2.5 px-6 rounded-full text-sm font-bold items-center gap-2 shadow-lg hover:scale-105 transition">
+          <i class="fas fa-bag-shopping"></i> Order Now
+        </a>
         <button id="mobile-toggle" class="xl:hidden w-10 h-10 rounded-full bg-coral text-white flex items-center justify-center shadow-md">
           <i class="fas fa-bars text-base"></i>
         </button>
@@ -603,17 +607,20 @@
         <a class="block py-3 px-4 font-semibold text-plum dark:text-cream hover:bg-cream/60 dark:hover:bg-cream/10 rounded-xl transition" href="gallery.html">Gallery</a>
         <a class="block py-3 px-4 font-semibold text-plum dark:text-cream hover:bg-cream/60 dark:hover:bg-cream/10 rounded-xl transition" href="contact.html">Contact</a>
         <div class="flex flex-col gap-3 pt-5 mt-3 border-t border-rose/20 dark:border-rose/10">
-          <a class="text-center btn-primary py-3 rounded-full font-bold shadow-md flex items-center justify-center gap-2" href="contact.html">
-            <i class="fas fa-bag-shopping"></i> Order Now
-          </a>
           <div class="flex gap-3">
-            <button id="mobile-theme-toggle" class="flex-1 py-2.5 rounded-full bg-coral/15 dark:bg-coral/20 text-coral text-sm font-bold flex items-center gap-2 justify-center">
-              <i class="fas fa-moon dark:hidden"></i><i class="fas fa-sun hidden dark:inline"></i> Theme
-            </button>
             <button id="mobile-rtl-toggle" class="flex-1 py-2.5 rounded-full bg-coral/15 dark:bg-coral/20 text-coral text-sm font-bold flex items-center gap-2 justify-center">
               ⇄ RTL
             </button>
+            <button id="mobile-theme-toggle" class="flex-1 py-2.5 rounded-full bg-coral/15 dark:bg-coral/20 text-coral text-sm font-bold flex items-center gap-2 justify-center">
+              <i class="fas fa-moon dark:hidden"></i><i class="fas fa-sun hidden dark:inline"></i> Theme
+            </button>
           </div>
+          <a class="text-center btn-outline py-2.5 rounded-full font-bold flex items-center justify-center gap-2 shadow-sm" href="login.html">
+            <i class="fas fa-user text-xs"></i> Login
+          </a>
+          <a class="text-center btn-primary py-3 rounded-full font-bold shadow-md flex items-center justify-center gap-2" href="contact.html">
+            <i class="fas fa-bag-shopping"></i> Order Now
+          </a>
         </div>
       </div>
     </div>
